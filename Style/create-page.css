@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #e9ebee ;
+    
+}
+header{
+    background: #426bbd;
+    height: 80px;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+main{
+
+    padding: 50px;
+}
+.header-block{
+    width: 1000px;
+}
+img{
+    width:140px;
+    margin-top: 7px;
+    height: 70px;
+}
+#facebook-login{
+    width: 50%;
+    margin-left: 160px;
+    margin-top: -50px;
+}
+#sign-up{
+    width: 90px;
+    display: block;
+    height:20px;
+    text-align: center;
+    border-radius: 2px solid #42b72a;
+    background:#42b72a;
+    position: absolute;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+    text-decoration: none;
+    
+}
+
+.first-title{
+    color: #1c1e21;
+    font-size: 24px;
+    font-weight: bold;
+}
+p{
+    font-size: 14px;
+    padding-top: 10px;
+    margin-right: 100px;
+}
+#row{
+    margin: 0 auto;
+    margin-top: 50px;   
+}
+.left-side{
+    background: white;
+    width: 500px;
+    float: left;
+    
+    height: 500px;
+    border-radius: 6px;
+    margin: 10px;
+    margin-left: 100px;
+}
+.right-side{
+    background:white;
+    width: 500px;
+    float: left;
+    height: 500px;
+    border-radius: 6px;
+    margin: 10px;
+}
+.left-side img{
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+
+}
+#row h2{
+    color: #000;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    padding-bottom: 12px;
+    text-align: center;
+    margin-top: 20px
+}
+#row p{
+    text-align: center;
+    margin-left: 100px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #4b4f56;
+}
+.Get-started{
+    width: 100%;
+    display: flex;
+}
+.Get-started #Get-started{
+    background-color: #e4e6eb;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    
+    margin-left: 200px;
+    color: rgb(68, 73, 80);;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    font-family: inherit;
+    width: 70px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.left-side #Get-started{
+    margin-top: 130px;
+}
+.right-side img{
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+
+}
+.right-side #Get-started{
+    margin-top: 146px;
+}
+
+#join-login{
+   
+    margin: 15px 0;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 850px;
+    position: absolute;
+
+}
+#join-login:hover{
+    text-decoration: underline;
+}
+
+
+
